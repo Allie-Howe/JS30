@@ -1,0 +1,35 @@
+body {
+    background-color: lightcoral;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, hsla(197, 37%, 24%, 1) 0%, hsla(173, 58%, 39%, 1) 25%, hsla(43, 74%, 66%, 1) 50%, hsla(27, 87%, 67%, 1) 75%, hsla(12, 76%, 61%, 1) 100%);
+    font-family: sans-serif;
+}
+
+kbd {
+    font-family: inherit;
+}
+
+.keys {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.key {
+    display: inline;
+
+    padding: 50px;
+    margin: 50px 1.5%;
+
+    transition: .1s;
+
+    background-color: #444;
+    color: #ddd;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #0008;
+}
+
+.pressed {
+    opacity: 0.5;
+}
