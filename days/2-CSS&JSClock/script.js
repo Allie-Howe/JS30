@@ -11,6 +11,9 @@ const setTime = (sHand, mHand, hHand) => {
     min = (dateObj.getMinutes() / 60) * 360,
     hour = (dateObj.getHours() / 12) * 360;
 
+  min += sec / 60;
+  hour += min / 60;
+
   sHand.style.transform = `rotate(${sec}deg) scaleY(.75)`;
   mHand.style.transform = `rotate(${min}deg) scaleX(.9)`;
   hHand.style.transform = `rotate(${hour}deg) scaleX(.7) scaleY(1.25)`;
