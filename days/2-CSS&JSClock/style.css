@@ -47,6 +47,15 @@ body {
 
 .s-hand {
     background: red;
+    transform: scaleY(.75);
+}
+
+.m-hand {
+    transform: scaleX(.9);
+}
+
+.h-hand {
+    transform: scaleX(.7) scaleY(1.25);
 }
 
 .marker {
